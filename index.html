@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ВКТ — российский производитель вентиляционного и противопожарного оборудования">
+  <title>ВКТ — Вентиляционное и противопожарное оборудование</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Верхняя панель -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <span class="top-bar__location">Рязанская область, с. Поляны</span>
+      <div class="top-bar__phones">
+        <a href="tel:+74912505500">+7 (4912) 50-55-00</a>
+        <a href="tel:+74912505005">+7 (4912) 50-50-05</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <span class="logo__mark">VKT</span>
+        <span class="logo__text">Вентиляционные<br>и климатические технологии</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav__link">О компании</a>
+        <a href="#catalog" class="nav__link">Каталог</a>
+        <a href="#production" class="nav__link">Производство</a>
+        <a href="#news" class="nav__link">Новости</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <a href="#contacts" class="btn btn--primary header__cta">Запросить КП</a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Герой -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__label">Российский производитель с 1990-х</p>
+          <h1 class="hero__title">Вентиляционное и&nbsp;противопожарное оборудование</h1>
+          <p class="hero__desc">
+            Проектируем и изготавливаем клапаны, вентиляторы дымоудаления,
+            канальное оборудование и автоматику — с одними из самых коротких
+            сроков производства на рынке.
+          </p>
+          <div class="hero__actions">
+            <a href="#catalog" class="btn btn--primary">Смотреть каталог</a>
+            <a href="#production" class="btn btn--outline">Сроки производства</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__card">
+            <div class="hero__stat">
+              <span class="hero__stat-num">от 2</span>
+              <span class="hero__stat-unit">дней</span>
+              <span class="hero__stat-label">канальные вентиляторы</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-num">от 3</span>
+              <span class="hero__stat-unit">дней</span>
+              <span class="hero__stat-label">противопожарные клапаны</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-num">от 5</span>
+              <span class="hero__stat-unit">дней</span>
+              <span class="hero__stat-label">вентиляторы ДУ и подпора</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="features">
+      <div class="container">
+        <div class="features__grid">
+          <article class="feature">
+            <div class="feature__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="feature__title">Собственное производство</h3>
+            <p class="feature__text">Полный цикл — от проектирования до отгрузки со склада в Рязанской области</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="feature__title">Короткие сроки</h3>
+            <p class="feature__text">Стандартная продукция — от 2 до 6 рабочих дней, ККБ — на складе</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4"/><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="feature__title">Сертификация</h3>
+            <p class="feature__text">Продукция соответствует требованиям пожарной безопасности и ГОСТ</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3 class="feature__title">Для проектировщиков</h3>
+            <p class="feature__text">Техническая документация, BIM-модели и консультации специалистов</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Каталог -->
+    <section class="catalog" id="catalog">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-head__title">Каталог продукции</h2>
+          <p class="section-head__desc">Полный ассортимент для систем вентиляции, кондиционирования и противопожарной защиты</p>
+        </div>
+
+        <div class="catalog__grid">
+          <a href="#" class="catalog-card catalog-card--accent">
+            <span class="catalog-card__tag">Основное направление</span>
+            <h3 class="catalog-card__title">Противопожарное оборудование</h3>
+            <ul class="catalog-card__list">
+              <li>Клапаны КПС, КДМ, КИД</li>
+              <li>Вентиляторы дымоудаления</li>
+              <li>Вентиляторы подпора</li>
+              <li>Автоматика</li>
+            </ul>
+            <span class="catalog-card__arrow">→</span>
+          </a>
+
+          <a href="#" class="catalog-card">
+            <h3 class="catalog-card__title">Общеобменное оборудование</h3>
+            <ul class="catalog-card__list">
+              <li>Центральные кондиционеры VKC</li>
+              <li>Канальное оборудование</li>
+              <li>Крышные вентиляторы VKVT</li>
+              <li>Приточные установки VKJet</li>
+            </ul>
+            <span class="catalog-card__arrow">→</span>
+          </a>
+
+          <a href="#" class="catalog-card">
+            <h3 class="catalog-card__title">Взрывозащищённое оборудование</h3>
+            <ul class="catalog-card__list">
+              <li>Осевые и радиальные вентиляторы</li>
+              <li>Крышные вентиляторы ДУ</li>
+              <li>Противопожарные клапаны</li>
+              <li>Заслонки VKZ</li>
+            </ul>
+            <span class="catalog-card__arrow">→</span>
+          </a>
+
+          <a href="#" class="catalog-card">
+            <h3 class="catalog-card__title">Тепловое оборудование</h3>
+            <ul class="catalog-card__list">
+              <li>Воздушно-отопительные агрегаты</li>
+              <li>Воздушные завесы VZA</li>
+              <li>БИТП</li>
+              <li>Газовые воздухонагреватели</li>
+            </ul>
+            <span class="catalog-card__arrow">→</span>
+          </a>
+
+          <a href="#" class="catalog-card">
+            <h3 class="catalog-card__title">Сетевое оборудование</h3>
+            <ul class="catalog-card__list">
+              <li>Заслонки и решётки</li>
+              <li>Шумоглушители VKN</li>
+              <li>Электроприводы</li>
+              <li>Дефлекторы VK</li>
+            </ul>
+            <span class="catalog-card__arrow">→</span>
+          </a>
+
+          <a href="#" class="catalog-card">
+            <h3 class="catalog-card__title">Автоматика VAC</h3>
+            <ul class="catalog-card__list">
+              <li>Датчики и регуляторы</li>
+              <li>Шкафы управления</li>
+              <li>Регуляторы частоты</li>
+              <li>Узлы VKRGS</li>
+            </ul>
+            <span class="catalog-card__arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- О компании -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <div class="about__content">
+          <h2 class="section-head__title">О компании</h2>
+          <p class="about__text">
+            ВКТ — российский производитель вентиляционного и противопожарного
+            оборудования. Мы специализируемся на изготовлении клапанов
+            огнезадерживающих и дымовых, вентиляторов дымоудаления и подпора,
+            а также полного спектра канального и общеобменного оборудования.
+          </p>
+          <p class="about__text">
+            Наше ключевое преимущество — скорость: большинство позиций
+            изготавливается за считанные дни, что позволяет закрывать
+            срочные проекты без компромиссов по качеству.
+          </p>
+          <div class="about__links">
+            <a href="#" class="about__link">Сертификаты</a>
+            <a href="#" class="about__link">Объекты</a>
+            <a href="#" class="about__link">Партнёры</a>
+            <a href="#" class="about__link">Прайс-лист</a>
+          </div>
+        </div>
+        <div class="about__image">
+            <span><img src="./img/work.webp" width="450" height="600"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Сроки производства -->
+    <section class="production" id="production">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <h2 class="section-head__title">Сроки производства</h2>
+          <p class="section-head__desc">Одни из самых коротких на рынке</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <span class="timeline__days">2 дня</span>
+            <span class="timeline__name">Канальные вентиляторы</span>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__days">3 дня</span>
+            <span class="timeline__name">Противопожарные клапаны</span>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__days">3 дня</span>
+            <span class="timeline__name">Комплектующие для каналов</span>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__days">5 дней</span>
+            <span class="timeline__name">Вентиляторы ДУ и подпора</span>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__days">5 дней</span>
+            <span class="timeline__name">Автоматика, дефлекторы</span>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__days">6 дней</span>
+            <span class="timeline__name">Кондиционеры и приточные установки</span>
+          </div>
+          <div class="timeline__item timeline__item--stock">
+            <span class="timeline__days">Склад</span>
+            <span class="timeline__name">Компрессорно-конденсаторные блоки</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Новости -->
+    <section class="news" id="news">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-head__title">Новости</h2>
+          <a href="#" class="section-head__link">Все новости →</a>
+        </div>
+
+        <div class="news__grid">
+          <article class="news-card">
+            <time class="news-card__date" datetime="2026-03-10">10 марта 2026</time>
+            <h3 class="news-card__title">Радиальный ВР — ДУ 80-75</h3>
+            <p class="news-card__excerpt">Обновлённая линейка радиальных вентиляторов дымоудаления с улучшенными характеристиками.</p>
+          </article>
+          <article class="news-card">
+            <time class="news-card__date" datetime="2026-02-18">18 февраля 2026</time>
+            <h3 class="news-card__title">Клапан КПС-1м (60)-ДД</h3>
+            <p class="news-card__excerpt">Новое исполнение противопожарного клапана с дымоудалением и доводчиком.</p>
+          </article>
+          <article class="news-card">
+            <time class="news-card__date" datetime="2026-01-25">25 января 2026</time>
+            <h3 class="news-card__title">Крышный ВКР — ДУ — Ф</h3>
+            <p class="news-card__excerpt">Крышный вентилятор дымоудаления с выбросом вверх — расширение ассортимента.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta__inner">
+        <div class="cta__content">
+          <h2 class="cta__title">Нужна консультация или коммерческое предложение?</h2>
+          <p class="cta__desc">Свяжитесь с отделом продаж — ответим в рабочее время</p>
+        </div>
+        <div class="cta__actions">
+          <a href="tel:+74912505005" class="btn btn--white">+7 (4912) 50-50-05</a>
+          <a href="mailto:sales@vkt.cc" class="btn btn--outline-white">Написать на email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="contacts__grid">
+          <div class="contacts__info">
+            <h2 class="section-head__title">Контакты</h2>
+            <address class="contacts__address">
+              <p>390525, Рязанская область,<br>Рязанский район, с. Поляны,<br>ул. Новая, стр. 24</p>
+            </address>
+            <div class="contacts__phones">
+              <a href="tel:+74912505500">+7 (4912) 50-55-00</a>
+              <a href="tel:+74912505005">+7 (4912) 50-50-05</a>
+            </div>
+            <p class="contacts__note">Отдел продаж: +7 (4912) 50-50-05</p>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <h3 class="contact-form__title">Оставить заявку</h3>
+            <div class="contact-form__field">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" required placeholder="Ваше имя">
+            </div>
+            <div class="contact-form__field">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__">
+            </div>
+            <div class="contact-form__field">
+              <label for="message">Сообщение</label>
+              <textarea id="message" name="message" rows="3" placeholder="Опишите задачу или интересующую продукцию"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__mark">VKT</span>
+        <p>Производство вентиляционного<br>и противопожарного оборудования</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="#about">О компании</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#production">Производство</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <p class="footer__copy">© 2026 ВКТ. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
